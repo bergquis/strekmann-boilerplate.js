@@ -32,7 +32,7 @@ The backbone application builds 3 javascript files and one css file.
 |	templates.js - application templates as compiled handlebar templates.
 |	app.js 		 - backbone application files.
 
-The source for the backbone application is found in the backbone/ directory.
+The source for the backbone application is found in the app/ directory.
 
 
 Node server
