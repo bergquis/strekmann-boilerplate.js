@@ -1,0 +1,12 @@
+{
+	"framework": "mocha+chai",
+	"src_files": [
+		"server/public/js/vendor.js",
+		"server/public/js/templates.js",
+		"server/public/js/app.js",
+		"vendor/test/sinon.js",
+		"vendor/test/sinon-chai.js",
+		"vendor/test/setup-vendor.js",
+		"app/specs/**/*.js"
+	]
+}

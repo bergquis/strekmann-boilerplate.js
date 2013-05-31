@@ -1,0 +1,35 @@
+{
+  "author": "strekmann",
+  "name": "boilerplate.js",
+  "description": "project",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.8 || 0.9"
+  },
+  "scripts": {
+    "start": "./server",
+    "test": "./node_modules/mocha/bin/mocha --require server/test/setup/setup.js --reporter spec --ui bdd server/test"
+  },
+  "dependencies": {
+    "javascript-brunch": "> 1.0 < 1.6",
+    "css-brunch": "> 1.0 < 1.6",
+    "sass-brunch": "> 1.0 < 1.6",
+    "handlebars-brunch": "> 1.0 < 1.6",
+    "uglify-js-brunch": "> 1.0 < 1.6",
+    "clean-css-brunch": "> 1.0 < 1.6",
+    "jshint-brunch": "> 1.0 < 1.6",
+    "express": "> 3.0",
+    "passport": "",
+    "passport-google-oauth": ""
+  },
+  "devDependencies": {
+    "mocha": "",
+    "chai": "",
+    "sinon": "",
+    "sinon-chai": "",
+    "jsdom": "0.3.4",
+    "supertest": "",
+    "testem": ""
+  }
+}
