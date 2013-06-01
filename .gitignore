@@ -1,3 +1,4 @@
 node_modules/
 server/public/css
 server/public/js
+server/settings.js
