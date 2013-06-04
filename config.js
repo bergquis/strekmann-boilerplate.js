@@ -27,7 +27,7 @@ exports.config = {
     javascripts: {
       defaultExtension: 'js',
       joinTo: {
-        'js/app.js': /^app(\/|\\)(?!test)/,
+        'js/app.js': /^app(\/|\\)(?!specs)/,
         'js/vendor.js': /^vendor\/scripts/
       },
       order: {
